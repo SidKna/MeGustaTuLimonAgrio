@@ -11,14 +11,14 @@
 <body>
         <nav class="navbar navbar-expand-sm navbar-light bg-primary">
             <div class="container-fluid">
-                <a class="navbar-brand" href="./index.html">Inicio</a>
+                <a class="navbar-brand" href="./index.html"> <i class="fa fa-home" aria-hidden="true"> </i>Inicio</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarID"
                     aria-controls="navbarID" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarID">
                     <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="./Libros.html">Libros</a>
+                        <a class="nav-link active" aria-current="page" href="./Libros.html">  <i class="fa fa-book" aria-hidden="true"></i>Libros</a>
                         <a class="nav-link active" aria-current="page" href="#">Autores</a>
                         <a class="nav-link active" aria-current="page" href="#">Ejemplares</a>
                         
@@ -26,6 +26,74 @@
                 </div>
             </div>
         </nav>
+
+
+        <div class="table table-borderless table-secondary table-striped">
+    <button class="btn btn-success text-black"> Agregar Nuevo Libro  </button>
+    <br>
+    <br>    
+
+    <table class="table table-borderless table-striped">
+        <thead class="mt-4 table-warning">
+            <th>Id</th>
+            <th>Libro</th>
+            <th>Autor</th>
+            <th>Estado</th>
+            <th>Accion</th>
+
+        </thead>
+
+
+        <tbody>
+            <tr>
+
+            <td>001</td>
+            <td>Cien años de Soledad</td>
+            <td>Gabriel García Marquez</td>
+            <td class=" badge bg-danger text-black"> 
+                No Disponible
+            </td>
+            <td>
+                <button class="btn btn-danger">Eliminar</button>
+                <button class="btn btn-dark">Guardar</button>
+            </td>
+            
+                
+            </tr>
+
+
+            <tr>
+
+            <td>002</td>
+            <td>El cuervo</td>
+            <td>Edgard Allan Poe</td>
+            <td class=" badge bg-success text-black"> 
+                No Disponible
+            </td>
+            
+                
+            </tr>
+
+
+
+
+
+
+        </tbody>
+
+
+    </table>
+
+
+        </div>
     
 </body>
+
+
+
+
+<footer class="bg-black text-white text-center">
+    &copy; Biblioteca Aldeas Sos/ Todos los derechos reservados
+</footer>
+
 </html>
