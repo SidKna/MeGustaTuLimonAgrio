@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.autores-nav {
+    display: flex;
+    justify-content: left;
+}
+
+.autores-list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    list-style: none;
+}
